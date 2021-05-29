@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c09593e7-4fb4-40a3-a3a4-fb9a9f85de53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/contantsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ContactoPostRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contacto/mostrar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ContactoPostRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ContactoPostRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contacto/formulario.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacto/formulario.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contacto/mostrar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacto/mostrar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -153,11 +153,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\luisyjose-18-1892y16-5603" />
       <recent name="C:\laragon\www\luisyjose-18-1892y16-5603\routes" />
       <recent name="C:\laragon\www\luisyjose-18-1892y16-5603\resources\views\contacto" />
       <recent name="C:\laragon\www\luisyjose-18-1892y16-5603\app\Http" />
       <recent name="C:\laragon\www\luisyjose-18-1892y16-5603\app\Models" />
-      <recent name="C:\laragon\www\luisyjose-18-1892y16-5603" />
     </key>
   </component>
   <component name="RunManager">
@@ -176,6 +176,7 @@
       <updated>1622262884084</updated>
       <workItem from="1622262887013" duration="3944000" />
       <workItem from="1622268973811" duration="7630000" />
+      <workItem from="1622277537041" duration="3666000" />
     </task>
     <servers />
   </component>
@@ -192,5 +193,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

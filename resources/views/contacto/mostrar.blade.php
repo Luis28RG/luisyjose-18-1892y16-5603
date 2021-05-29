@@ -1,9 +1,9 @@
 @extends('layout.layout')
 
 @section('contenido')
-    <div class="container mt-5">
-        <h2>Tabla de Mostrar</h2>
-        <table class="table">
+    <div class="container mt-5 ">
+        <h2 style="color:floralwhite">Tabla de Mostrar</h2>
+        <table class="table" style="color:floralwhite">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
