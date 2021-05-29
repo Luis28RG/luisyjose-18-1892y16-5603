@@ -26,7 +26,10 @@
                     <a class="nav-link active" aria-current="page" href="{{route('Bienvenido')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('contacto/formulario')}}">Features</a>
+                    <a class="nav-link" href="{{route('contacto/formulario')}}">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('contacto.index')}}">Mensajes</a>
                 </li>
             </ul>
         </div>

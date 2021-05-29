@@ -1,23 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\contantsController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
 })->name( 'Bienvenido');
 
-// Rutas de Contacto
-Route::get('/contacto/registro',function () {
-    return view('contacto.formulario');
-})->name('contacto/formulario');
+
+Route::get('/contacto/index', [contantsController::class,'index'])->name('contacto.index');
+
+Route::get('/contacto/crear', [contantsController::class,'create'])->name('contacto.create');
+Route::post('/contacto', [contantsController::class,'store'])->name('contacto.store');
+Route::get('/contacto/mostrar',function () {return view('contacto.mostrar');})->name('contacto/mostrar');
+Route::get('/contacto/registro',function () {return view('contacto.formulario');})->name('contacto/formulario');
